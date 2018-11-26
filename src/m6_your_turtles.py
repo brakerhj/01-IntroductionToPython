@@ -36,14 +36,18 @@ ryan.pen = rg.Pen("pink", 2)
 ryan.speed = 2
 
 size = 150
-for k in range(2):
+for k in range(3):
     ryan.draw_circle(size)
+    ryan.pen_down()
+    size = size - 10
 
 stella = rg.SimpleTurtle()
-stella.pen = rg.Pen('blue', 5)
+stella.pen = rg.Pen('blue', 2)
 stella.speed = 4
 
+size = 200
 for k in range(3):
-    stella.draw_square(200)
+    stella.draw_square(size)
+    size = size + 7
 
 window.close_on_mouse_click()
