@@ -41,7 +41,7 @@ for k in range(2):
 
 stella = rg.SimpleTurtle()
 stella.pen = rg.Pen('blue', 5)
-stella.speed = 3
+stella.speed = 4
 
 for k in range(3):
     stella.draw_square(200)
