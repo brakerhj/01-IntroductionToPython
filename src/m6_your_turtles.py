@@ -39,6 +39,7 @@ size = 150
 for k in range(3):
     ryan.draw_circle(size)
     ryan.pen_down()
+    ryan.forward(k)
     size = size - 10
 
 stella = rg.SimpleTurtle()
@@ -48,6 +49,7 @@ stella.speed = 4
 size = 200
 for k in range(3):
     stella.draw_square(size)
+    stella.forward(k)
     size = size + 7
 
 window.close_on_mouse_click()
